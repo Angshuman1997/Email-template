@@ -1,0 +1,29 @@
+Write a Script(R/Python) which fetch the detail from the CSV and create an email template.
+Things need to do:
+
+1.Fetch the Detail like name, email, email Body, email subject and create email template for each individuals. 
+2. Check and fetch email address from the email body section if any present and store it in another CSV. 
+3. Check and fetch mail number from the email body section if any present and store it in another CSV.
+
+You can download data from here : https://drive.google.com/file/d/1zHm2hSl0zCfZwFp_BMCylU7AymxtbTea/view?usp=sharing
+
+Email Template Sample
+first_name: James,last_name: Butt, company_name: Benton, John B Jr,	address:6649 N Blue Gum St,city: New Orleans
+,county: Orleans,state: LA,zip: 70116,phone1: 504-621-8927,phone: 504-845-1427,email: jbutt@luminate.ai,
+subject: When EMVX creation comes the message "The creation was canceled for hardware reasons"
+,Email Boby: I have a nearly unreadable font in my Warehouse Software under Export-File Options for 2 days.Please do contact me at 504-621-8927.
+
+
+Email template to be made:
+
+Email to :jbutt@luminate.ai
+Subject Line:When EMVX creation comes the message "The creation was canceled for hardware reasons".
+Hi James Butt, 
+I have a nearly unreadable font in my Warehouse Software under Export-File Options for 2 days.Please do contact me at 504-621-8927
+Please do contact me at 504-845-1427
+Thanks,
+Rob Willison    
+
+In the above email body one phone number is present that is 504-621-8927 which should be fetch and store in another CSV.
+
+(Note: Rob Willison is User defined name )
